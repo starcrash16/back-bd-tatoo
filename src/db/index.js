@@ -38,4 +38,5 @@ pool.on('error', (err) => {
 module.exports = {
     // Función de utilidad para ejecutar consultas
     query: (text, params) => pool.query(text, params),
+    pool, // Exportar el pool para transacciones
 };

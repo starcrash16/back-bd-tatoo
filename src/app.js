@@ -8,7 +8,6 @@ const citasRouter = require('./routes/citas');
 const inventarioRouter = require('./routes/inventario');
 const pagosRouter = require('./routes/pagos');
 const usuariosRouter = require('./routes/usuarios');
-
 const app = express();
 
 // Middlewares
